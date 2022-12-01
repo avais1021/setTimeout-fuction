@@ -15,7 +15,7 @@
     </style>
 </head>
 
-<body style="overflow-y: hidden;">
+<body style="overflow: hidden;">
 
     <div>
         <img id="abc" src="nature-4.jpg" alt="image" width="100%" style="height: 100vh;" >
@@ -62,6 +62,7 @@
         const imageFun = () => {
             const image = document.getElementById("abc");
             image.style.display="none";
+            document.body.setAttribute("style","overflow: unset;");
         }
         
         const after = () => {
@@ -74,5 +75,4 @@
 
     </script>
 </body>
-
 </html>
