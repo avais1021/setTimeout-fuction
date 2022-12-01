@@ -62,12 +62,11 @@
         const imageFun = () => {
             const image = document.getElementById("abc");
             image.style.display="none";
-            document.body.setAttribute("style","overflow-y: unset;");
         }
         
         const after = () => {
             setTimeout(function(){
-                console.log("After 3s");
+                console.log("After 2s");
                 imageFun();
             },2000)
         }
