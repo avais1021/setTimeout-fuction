@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything about Callback Function</title>
+    <style>
+        #abc{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body style="overflow-y: hidden;">
+
+    <div>
+        <img id="abc" src="nature-4.jpg" alt="image" width="100%" style="height: 100vh;" >
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias amet tenetur architecto ex esse pariatur atque nemo! Veritatis iste iusto facere a aliquam possimus suscipit blanditiis debitis pariatur. Necessitatibus, nostrum? Quod quaerat non rerum natus blanditiis quos voluptas iure perspiciatis, exercitationem cupiditate. Illum, hic voluptatem voluptates deserunt ex facilis, culpa soluta praesentium nobis dolore eius, amet eveniet! Dignissimos quibusdam deleniti nam dicta vitae, non, voluptatum voluptates ab, delectus corporis et repellat labore accusantium autem beatae doloremque facilis nesciunt asperiores nihil excepturi? Nulla consectetur necessitatibus libero, dolor assumenda sunt quam, id nemo molestias asperiores iusto in labore vitae culpa praesentium quo fugiat error quasi perspiciatis odio. Dicta modi dolorem, corporis explicabo ipsum odio numquam earum, quas quos sed debitis. Molestias suscipit dolorum inventore nulla hic iure amet iste consectetur sed corrupti optio perferendis sit nemo itaque tempora, nobis officiis repudiandae beatae cumque sapiente quasi dicta! Iste in harum provident debitis odit commodi nisi eligendi aspernatur asperiores, dolorem dicta! Odit quia dolorum, debitis aliquid ullam rerum dolor ea, itaque explicabo maxime mollitia quae eveniet ducimus commodi alias. Quo, tenetur praesentium. Aliquid aliquam dolorem, ea voluptatem iure temporibus minima dolore consectetur consequuntur dicta deserunt quos quam magni, consequatur quo dolor perferendis accusantium atque laborum ad alias officia porro ut? Ex labore itaque ut omnis esse eius in tempore provident dolor et unde, ab animi amet sint illo nulla cumque laboriosam perspiciatis nisi ipsam error reiciendis atque quia quidem. Eligendi tenetur corporis nobis corrupti deleniti minus sequi deserunt, earum commodi, blanditiis rem dolorem quaerat beatae repudiandae consectetur! Quod, inventore, ex amet ipsa porro asperiores quasi provident officiis dolorum esse blanditiis. Dolore magnam, dicta corporis modi neque ducimus nostrum iste quo repellendus laboriosam delectus ipsam odio aperiam? Architecto, voluptas optio. Quisquam minima, ad illum est sint enim deleniti quae adipisci, quibusdam explicabo amet nostrum dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias amet tenetur architecto ex esse pariatur atque nemo! Veritatis iste iusto facere a aliquam possimus suscipit blanditiis debitis pariatur. Necessitatibus, nostrum? Quod quaerat non rerum natus blanditiis quos voluptas iure perspiciatis, exercitationem cupiditate. Illum, hic voluptatem voluptates deserunt ex facilis, culpa soluta praesentium nobis dolore eius, amet eveniet! Dignissimos quibusdam deleniti nam dicta vitae, non, voluptatum voluptates ab, delectus corporis et repellat labore accusantium autem beatae doloremque facilis nesciunt asperiores nihil excepturi? Nulla consectetur necessitatibus libero, dolor assumenda sunt quam, id nemo molestias asperiores iusto in labore vitae culpa praesentium quo fugiat error quasi perspiciatis odio. Dicta modi dolorem, corporis explicabo ipsum odio numquam earum, quas quos sed debitis. Molestias suscipit dolorum inventore nulla hic iure amet iste consectetur sed corrupti optio perferendis sit nemo itaque tempora, nobis officiis repudiandae beatae cumque sapiente quasi dicta! Iste in harum provident debitis odit commodi nisi eligendi aspernatur asperiores, dolorem dicta! Odit quia dolorum, debitis aliquid ullam rerum dolor ea, itaque explicabo maxime mollitia quae eveniet ducimus commodi alias. Quo, tenetur praesentium. Aliquid aliquam dolorem, ea voluptatem iure temporibus minima dolore consectetur consequuntur dicta deserunt quos quam magni, consequatur quo dolor perferendis accusantium atque laborum ad alias officia porro ut? Ex labore itaque ut omnis esse eius in tempore provident dolor et unde, ab animi amet sint illo nulla cumque laboriosam perspiciatis nisi ipsam error reiciendis atque quia quidem. Eligendi tenetur corporis nobis corrupti deleniti minus sequi deserunt, earum commodi, blanditiis rem dolorem quaerat beatae repudiandae consectetur! Quod, inventore, ex amet ipsa porro asperiores quasi provident officiis dolorum esse blanditiis. Dolore magnam, dicta corporis modi neque ducimus nostrum iste quo repellendus laboriosam delectus ipsam odio aperiam? Architecto, voluptas optio. Quisquam minima, ad illum est sint enim deleniti quae adipisci, quibusdam explicabo amet nostrum dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias amet tenetur architecto ex esse pariatur atque nemo! Veritatis iste iusto facere a aliquam possimus suscipit blanditiis debitis pariatur. Necessitatibus, nostrum? Quod quaerat non rerum natus blanditiis quos voluptas iure perspiciatis, exercitationem cupiditate. Illum, hic voluptatem voluptates deserunt ex facilis, culpa soluta praesentium nobis dolore eius, amet eveniet! Dignissimos quibusdam deleniti nam dicta vitae, non, voluptatum voluptates ab, delectus corporis et repellat labore accusantium autem beatae doloremque facilis nesciunt asperiores nihil excepturi? Nulla consectetur necessitatibus libero, dolor assumenda sunt quam, id nemo molestias asperiores iusto in labore vitae culpa praesentium quo fugiat error quasi perspiciatis odio. Dicta modi dolorem, corporis explicabo ipsum odio numquam earum, quas quos sed debitis. Molestias suscipit dolorum inventore nulla hic iure amet iste consectetur sed corrupti optio perferendis sit nemo itaque tempora, nobis officiis repudiandae beatae cumque sapiente quasi dicta! Iste in harum provident debitis odit commodi nisi eligendi aspernatur asperiores, dolorem dicta! Odit quia dolorum, debitis aliquid ullam rerum dolor ea, itaque explicabo maxime mollitia quae eveniet ducimus commodi alias. Quo, tenetur praesentium. Aliquid aliquam dolorem, ea voluptatem iure temporibus minima dolore consectetur consequuntur dicta deserunt quos quam magni, consequatur quo dolor perferendis accusantium atque laborum ad alias officia porro ut? Ex labore itaque ut omnis esse eius in tempore provident dolor et unde, ab animi amet sint illo nulla cumque laboriosam perspiciatis nisi ipsam error reiciendis atque quia quidem. Eligendi tenetur corporis nobis corrupti deleniti minus sequi deserunt, earum commodi, blanditiis rem dolorem quaerat beatae repudiandae consectetur! Quod, inventore, ex amet ipsa porro asperiores quasi provident officiis dolorum esse blanditiis. Dolore magnam, dicta corporis modi neque ducimus nostrum iste quo repellendus laboriosam delectus ipsam odio aperiam? Architecto, voluptas optio. Quisquam minima, ad illum est sint enim deleniti quae adipisci, quibusdam explicabo amet nostrum dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias amet tenetur architecto ex esse pariatur atque nemo! Veritatis iste iusto facere a aliquam possimus suscipit blanditiis debitis pariatur. Necessitatibus, nostrum? Quod quaerat non rerum natus blanditiis quos voluptas iure perspiciatis, exercitationem cupiditate. Illum, hic voluptatem voluptates deserunt ex facilis, culpa soluta praesentium nobis dolore eius, amet eveniet! Dignissimos quibusdam deleniti nam dicta vitae, non, voluptatum voluptates ab, delectus corporis et repellat labore accusantium autem beatae doloremque facilis nesciunt asperiores nihil excepturi? Nulla consectetur necessitatibus libero, dolor assumenda sunt quam, id nemo molestias asperiores iusto in labore vitae culpa praesentium quo fugiat error quasi perspiciatis odio. Dicta modi dolorem, corporis explicabo ipsum odio numquam earum, quas quos sed debitis. Molestias suscipit dolorum inventore nulla hic iure amet iste consectetur sed corrupti optio perferendis sit nemo itaque tempora, nobis officiis repudiandae beatae cumque sapiente quasi dicta! Iste in harum provident debitis odit commodi nisi eligendi aspernatur asperiores, dolorem dicta! Odit quia dolorum, debitis aliquid ullam rerum dolor ea, itaque explicabo maxime mollitia quae eveniet ducimus commodi alias. Quo, tenetur praesentium. Aliquid aliquam dolorem, ea voluptatem iure temporibus minima dolore consectetur consequuntur dicta deserunt quos quam magni, consequatur quo dolor perferendis accusantium atque laborum ad alias officia porro ut? Ex labore itaque ut omnis esse eius in tempore provident dolor et unde, ab animi amet sint illo nulla cumque laboriosam perspiciatis nisi ipsam error reiciendis atque quia quidem. Eligendi tenetur corporis nobis corrupti deleniti minus sequi deserunt, earum commodi, blanditiis rem dolorem quaerat beatae repudiandae consectetur! Quod, inventore, ex amet ipsa porro asperiores quasi provident officiis dolorum esse blanditiis. Dolore magnam, dicta corporis modi neque ducimus nostrum iste quo repellendus laboriosam delectus ipsam odio aperiam? Architecto, voluptas optio. Quisquam minima, ad illum est sint enim deleniti quae adipisci, quibusdam explicabo amet nostrum dolorum.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        const funA = () => {
+            setTimeout(function () {
+                console.log("fun A");
+                funB();
+            }, 3000)
+        }
+
+        const funB = () => {
+            console.log("fun B");
+        }
+        // funB(); 
+        funA();
+
+        // --------------------- 
+
+        const perOne = (friend , callFriend) => {
+            console.log(`hii i am busy i am talking to ${friend}`);
+            callFriend();
+        }
+
+        const perTwo = () => {
+            console.log(`ok call back after free`);
+        }
+
+        perOne("Asif", perTwo);
+
+        // -----------------------SET TIME OUT------- 
+
+        const imageFun = () => {
+            const image = document.getElementById("abc");
+            image.style.display="none";
+            document.body.setAttribute("style","overflow-y: unset;");
+        }
+        
+        const after = () => {
+            setTimeout(function(){
+                console.log("After 3s");
+                imageFun();
+            },2000)
+        }
+        after();
+
+    </script>
+</body>
+
+</html>
